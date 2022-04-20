@@ -1,14 +1,11 @@
-# Lightning App Tutorial
-
-This is the code for the [Lightning App Tutorial: Part 1](https://medium.com/p/4a13c82f3f78) post. If you're not following along with that, here are some basic setup instructions.
+# hackathon-lightning-app
+* [hackathon-lightning-app] (https://github.com/pparonson/hackathon-lightning-app)
 
 ## Requirements
-
 * Node 8+
 * An [LND node](https://github.com/lightningnetwork/lnd)
 
 ## Setup the Project
-
 Copy the environment configuration file with
 ```
 cp .env.example .env
@@ -20,10 +17,11 @@ Edit the following fields in your new .env file with information about your node
 * `LND_TLS_CERT` - Your TLS certificate, also base 64 encoded. Run `base64 tls.cert` in your data directory to get this.
 
 ## Run the Project
-
 Install dependencies and run the app with
 ```sh
 npm install && npm run dev
 # OR #
 yarn && yarn dev
 ```
+
+
